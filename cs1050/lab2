@@ -1,0 +1,23 @@
+#include<stdio.h>
+#include<math.h>
+int main(void)
+{
+int int1, int2, sum;
+printf("Enter the first number: /n");
+scanf("%d", &int1);
+while (int1<0)
+{
+printf("Enter a non-negative number: /n");
+scanf("%d", &int1);
+}
+printf("Enter the second number: /n");
+scanf("%d", &int2);
+while (int2<0)
+{
+printf("Enter a non-negative number: /n");
+scanf("%d", &int2);
+}
+printf("ADDITION/n");
+sum=int1+int2;
+printf("The sum of %d and %d is %d/n",int1,int2,sum);
+}
